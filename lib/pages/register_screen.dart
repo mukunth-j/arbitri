@@ -311,7 +311,6 @@ class RegisterScreen extends StatelessWidget {
                 ),
               ],
             ),
-            const Spacer(),
           ],
         ),
       ),
