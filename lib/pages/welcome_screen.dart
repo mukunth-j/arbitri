@@ -19,7 +19,7 @@ class WelcomeScreen extends StatelessWidget {
               fit: BoxFit.cover,
             ),
             Image.asset(
-              "assets/logo.png",
+              "assets/images/logo.png",
               fit: BoxFit.cover,
             ),
             const SizedBox(height: 25),
