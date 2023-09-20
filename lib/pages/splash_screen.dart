@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:arbitri/pages/chat_ui.dart';
 import 'package:arbitri/pages/welcome_screen.dart';
 import 'package:arbitri/utils/app_styles.dart';
 import 'package:flutter/material.dart';
@@ -18,6 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(const Duration(seconds: 3), () {
       Navigator.pushReplacement(context,
           MaterialPageRoute(builder: (context) => const WelcomeScreen()));
+      //MaterialPageRoute(builder: (context) => MyDrawer()));
     });
   }
 
@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
         body: Container(
       color: cPrimaryBlue,
       child: Center(
-        child: Image.asset('assets/images/logo.png'),
+        child: Image.asset('assets/images/arbitri.png'),
       ),
     ));
   }

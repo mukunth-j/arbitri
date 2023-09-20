@@ -137,7 +137,7 @@ class WelcomeScreen extends StatelessWidget {
               const Spacer(),
               Center(
                 child: Image.asset(
-                  "assets/images/logo.png",
+                  "assets/images/arbitri.png",
                   fit: BoxFit.cover,
                 ),
               ),
