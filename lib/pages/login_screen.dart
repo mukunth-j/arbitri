@@ -1,3 +1,4 @@
+import 'package:arbitri/pages/chat_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:arbitri/pages/forgot_password_screen.dart';
 import 'package:arbitri/pages/register_screen.dart';
@@ -152,7 +153,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => const LoginScreen()));
+                                  builder: (context) => const ChatPage()));
                         },
                         child: const Padding(
                           padding: EdgeInsets.all(15.0),

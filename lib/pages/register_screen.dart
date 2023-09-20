@@ -1,3 +1,4 @@
+import 'package:arbitri/pages/chat_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:arbitri/pages/login_screen.dart';
 
@@ -359,7 +360,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const ChatPage()));
+                      },
                       child: const Padding(
                         padding: EdgeInsets.all(15.0),
                         child: Text(
