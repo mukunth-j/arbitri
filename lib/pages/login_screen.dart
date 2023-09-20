@@ -153,7 +153,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           Navigator.push(
                               context,
                               MaterialPageRoute(
-                                  builder: (context) => const ChatPage()));
+                                  builder: (context) => const ChatScreen()));
                         },
                         child: const Padding(
                           padding: EdgeInsets.all(15.0),
