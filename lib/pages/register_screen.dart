@@ -364,7 +364,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const ChatScreen()));
+                                builder: (context) => ChatScreen()));
                       },
                       child: const Padding(
                         padding: EdgeInsets.all(15.0),
